@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 // File location helpers
-var PROJECT_ROOT = path.resolve(__dirname, '../../');
+var PROJECT_ROOT = path.resolve(__dirname, '../');
 var MAIN_JS_PATH = path.join(PROJECT_ROOT, 'assets/javascript');
 var NODE_MODULES_PATH = path.join(PROJECT_ROOT, 'node_modules');
 var FILE_EXTENSION = '.js';
